@@ -1,5 +1,5 @@
 <?php
-require_once "test.php";
+require_once "vendor/test.php";
    if(function_exists($_GET['function'])) {
          $_GET['function']();
       }   
